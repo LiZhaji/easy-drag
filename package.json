@@ -1,0 +1,25 @@
+{
+  "name": "easy-drag",
+  "version": "0.0.1",
+  "description": "一个简单的dom拖拽功能",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiZhaji/easy-drag.git"
+  },
+  "keywords": [
+    "draggable",
+    "dom",
+    "drag",
+    "拖拽"
+  ],
+  "author": "LiZhaji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LiZhaji/easy-drag/issues"
+  },
+  "homepage": "https://github.com/LiZhaji/easy-drag#readme"
+}

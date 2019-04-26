@@ -1,0 +1,11 @@
+# Easy Drag
+
+A simple Dom Drag resolution.
+
+## install
+npm install easy-drag --save
+
+## usage
+```
+import dragMe from 'easy-drag'
+```

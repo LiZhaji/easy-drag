@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #test{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            background-color: yellow;
+        }
+        #handler {
+            height: 30px;
+            background-color: red;
+        }
+    </style>
+    <script src="index.js"></script>
+</head>
+<body>
+<div id="test">
+    <div id="handler"></div>
+    aaaaaaa<input type="text"></div>
+<script>
+    var obj = document.getElementById("test")
+   dragMe(obj, {
+       handler: document.querySelector('#handler')
+   })
+    document.querySelector('input').onmousemove=function(event){event.stopPropagation()}
+</script>
+</body>
+</html>
